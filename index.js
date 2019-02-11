@@ -1,3 +1,5 @@
+// const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby']
+
 function lowerCaseDrivers(list) {
   return list.map(function(driver) {
     return driver.toLowerCase();
