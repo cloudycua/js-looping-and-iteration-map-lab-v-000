@@ -6,6 +6,15 @@ function lowerCaseDrivers(list) {
   });
 }
 
+// const drivers = [
+//  'Bobby Smith',
+//  'Sammy Watkins',
+//  'Sally Jenkins',
+//  'Annette Sawyer',
+//  'Sarah Hucklebee',
+//  'bobby ridge'
+// ];
+
 function nameToAttributes(list) {
   return list.map(function(driver) {
       return {
