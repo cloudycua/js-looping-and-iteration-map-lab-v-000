@@ -7,6 +7,7 @@ function lowerCaseDrivers(list) {
 }
 
 // const drivers = [ 'Bobby Smith', 'Sammy Watkins' ]
+
 // returns [
 //   { firstName: 'Bobby', lastName: 'Smith' },
 //   { firstName: 'Sammy', lastName: 'Watkins' },
@@ -20,6 +21,13 @@ function nameToAttributes(list) {
       };
   });
 }
+
+// const drivers = [
+//   { name: 'Bobby', hometown: 'Pittsburgh' },
+//   { name: 'Sammy', hometown: 'New York' },
+// ]
+
+// returns [ 'Bobby is from Pittsburgh', 'Sammy is from New York' ]
 
 function attributesToPhrase(list){
   return list.map(function(driver) {
