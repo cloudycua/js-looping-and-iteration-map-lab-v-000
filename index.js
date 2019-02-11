@@ -6,14 +6,11 @@ function lowerCaseDrivers(list) {
   });
 }
 
-// const drivers = [
-//  'Bobby Smith',
-//  'Sammy Watkins',
-//  'Sally Jenkins',
-//  'Annette Sawyer',
-//  'Sarah Hucklebee',
-//  'bobby ridge'
-// ];
+// const drivers = [ 'Bobby Smith', 'Sammy Watkins' ]
+// returns [
+//   { firstName: 'Bobby', lastName: 'Smith' },
+//   { firstName: 'Sammy', lastName: 'Watkins' },
+// ]
 
 function nameToAttributes(list) {
   return list.map(function(driver) {
